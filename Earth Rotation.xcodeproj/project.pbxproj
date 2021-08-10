@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AEF952826C2C19D00B49EEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEF952726C2C19D00B49EEF /* AppDelegate.swift */; };
+		7AEF952A26C2C19D00B49EEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEF952926C2C19D00B49EEF /* SceneDelegate.swift */; };
+		7AEF952C26C2C19D00B49EEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEF952B26C2C19D00B49EEF /* ViewController.swift */; };
+		7AEF952F26C2C19D00B49EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AEF952D26C2C19D00B49EEF /* Main.storyboard */; };
+		7AEF953226C2C19D00B49EEF /* Earth_Rotation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AEF953026C2C19D00B49EEF /* Earth_Rotation.xcdatamodeld */; };
+		7AEF953426C2C1A000B49EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AEF953326C2C1A000B49EEF /* Assets.xcassets */; };
+		7AEF953726C2C1A000B49EEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AEF953526C2C1A000B49EEF /* LaunchScreen.storyboard */; };
+		7AEF954226C2C1A000B49EEF /* Earth_RotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEF954126C2C1A000B49EEF /* Earth_RotationTests.swift */; };
+		7AEF954D26C2C1A000B49EEF /* Earth_RotationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEF954C26C2C1A000B49EEF /* Earth_RotationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AEF953E26C2C1A000B49EEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AEF951C26C2C19C00B49EEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AEF952326C2C19C00B49EEF;
+			remoteInfo = "Earth Rotation";
+		};
+		7AEF954926C2C1A000B49EEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AEF951C26C2C19C00B49EEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AEF952326C2C19C00B49EEF;
+			remoteInfo = "Earth Rotation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7AEF952426C2C19C00B49EEF /* Earth Rotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Earth Rotation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AEF952726C2C19D00B49EEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AEF952926C2C19D00B49EEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7AEF952B26C2C19D00B49EEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AEF952E26C2C19D00B49EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AEF953126C2C19D00B49EEF /* Earth_Rotation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Earth_Rotation.xcdatamodel; sourceTree = "<group>"; };
+		7AEF953326C2C1A000B49EEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AEF953626C2C1A000B49EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AEF953826C2C1A000B49EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AEF953D26C2C1A000B49EEF /* Earth RotationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Earth RotationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AEF954126C2C1A000B49EEF /* Earth_RotationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earth_RotationTests.swift; sourceTree = "<group>"; };
+		7AEF954326C2C1A000B49EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AEF954826C2C1A000B49EEF /* Earth RotationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Earth RotationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AEF954C26C2C1A000B49EEF /* Earth_RotationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earth_RotationUITests.swift; sourceTree = "<group>"; };
+		7AEF954E26C2C1A000B49EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AEF952126C2C19C00B49EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AEF953A26C2C1A000B49EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AEF954526C2C1A000B49EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AEF951B26C2C19C00B49EEF = {
+			isa = PBXGroup;
+			children = (
+				7AEF952626C2C19C00B49EEF /* Earth Rotation */,
+				7AEF954026C2C1A000B49EEF /* Earth RotationTests */,
+				7AEF954B26C2C1A000B49EEF /* Earth RotationUITests */,
+				7AEF952526C2C19C00B49EEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AEF952526C2C19C00B49EEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AEF952426C2C19C00B49EEF /* Earth Rotation.app */,
+				7AEF953D26C2C1A000B49EEF /* Earth RotationTests.xctest */,
+				7AEF954826C2C1A000B49EEF /* Earth RotationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AEF952626C2C19C00B49EEF /* Earth Rotation */ = {
+			isa = PBXGroup;
+			children = (
+				7AEF952726C2C19D00B49EEF /* AppDelegate.swift */,
+				7AEF952926C2C19D00B49EEF /* SceneDelegate.swift */,
+				7AEF952B26C2C19D00B49EEF /* ViewController.swift */,
+				7AEF952D26C2C19D00B49EEF /* Main.storyboard */,
+				7AEF953326C2C1A000B49EEF /* Assets.xcassets */,
+				7AEF953526C2C1A000B49EEF /* LaunchScreen.storyboard */,
+				7AEF953826C2C1A000B49EEF /* Info.plist */,
+				7AEF953026C2C19D00B49EEF /* Earth_Rotation.xcdatamodeld */,
+			);
+			path = "Earth Rotation";
+			sourceTree = "<group>";
+		};
+		7AEF954026C2C1A000B49EEF /* Earth RotationTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AEF954126C2C1A000B49EEF /* Earth_RotationTests.swift */,
+				7AEF954326C2C1A000B49EEF /* Info.plist */,
+			);
+			path = "Earth RotationTests";
+			sourceTree = "<group>";
+		};
+		7AEF954B26C2C1A000B49EEF /* Earth RotationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AEF954C26C2C1A000B49EEF /* Earth_RotationUITests.swift */,
+				7AEF954E26C2C1A000B49EEF /* Info.plist */,
+			);
+			path = "Earth RotationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AEF952326C2C19C00B49EEF /* Earth Rotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AEF955126C2C1A000B49EEF /* Build configuration list for PBXNativeTarget "Earth Rotation" */;
+			buildPhases = (
+				7AEF952026C2C19C00B49EEF /* Sources */,
+				7AEF952126C2C19C00B49EEF /* Frameworks */,
+				7AEF952226C2C19C00B49EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Earth Rotation";
+			productName = "Earth Rotation";
+			productReference = 7AEF952426C2C19C00B49EEF /* Earth Rotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AEF953C26C2C1A000B49EEF /* Earth RotationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AEF955426C2C1A000B49EEF /* Build configuration list for PBXNativeTarget "Earth RotationTests" */;
+			buildPhases = (
+				7AEF953926C2C1A000B49EEF /* Sources */,
+				7AEF953A26C2C1A000B49EEF /* Frameworks */,
+				7AEF953B26C2C1A000B49EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AEF953F26C2C1A000B49EEF /* PBXTargetDependency */,
+			);
+			name = "Earth RotationTests";
+			productName = "Earth RotationTests";
+			productReference = 7AEF953D26C2C1A000B49EEF /* Earth RotationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AEF954726C2C1A000B49EEF /* Earth RotationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AEF955726C2C1A000B49EEF /* Build configuration list for PBXNativeTarget "Earth RotationUITests" */;
+			buildPhases = (
+				7AEF954426C2C1A000B49EEF /* Sources */,
+				7AEF954526C2C1A000B49EEF /* Frameworks */,
+				7AEF954626C2C1A000B49EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AEF954A26C2C1A000B49EEF /* PBXTargetDependency */,
+			);
+			name = "Earth RotationUITests";
+			productName = "Earth RotationUITests";
+			productReference = 7AEF954826C2C1A000B49EEF /* Earth RotationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AEF951C26C2C19C00B49EEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7AEF952326C2C19C00B49EEF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					7AEF953C26C2C1A000B49EEF = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7AEF952326C2C19C00B49EEF;
+					};
+					7AEF954726C2C1A000B49EEF = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7AEF952326C2C19C00B49EEF;
+					};
+				};
+			};
+			buildConfigurationList = 7AEF951F26C2C19C00B49EEF /* Build configuration list for PBXProject "Earth Rotation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AEF951B26C2C19C00B49EEF;
+			productRefGroup = 7AEF952526C2C19C00B49EEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AEF952326C2C19C00B49EEF /* Earth Rotation */,
+				7AEF953C26C2C1A000B49EEF /* Earth RotationTests */,
+				7AEF954726C2C1A000B49EEF /* Earth RotationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AEF952226C2C19C00B49EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AEF953726C2C1A000B49EEF /* LaunchScreen.storyboard in Resources */,
+				7AEF953426C2C1A000B49EEF /* Assets.xcassets in Resources */,
+				7AEF952F26C2C19D00B49EEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AEF953B26C2C1A000B49EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AEF954626C2C1A000B49EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AEF952026C2C19C00B49EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AEF952C26C2C19D00B49EEF /* ViewController.swift in Sources */,
+				7AEF952826C2C19D00B49EEF /* AppDelegate.swift in Sources */,
+				7AEF953226C2C19D00B49EEF /* Earth_Rotation.xcdatamodeld in Sources */,
+				7AEF952A26C2C19D00B49EEF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AEF953926C2C1A000B49EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AEF954226C2C1A000B49EEF /* Earth_RotationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AEF954426C2C1A000B49EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AEF954D26C2C1A000B49EEF /* Earth_RotationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AEF953F26C2C1A000B49EEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AEF952326C2C19C00B49EEF /* Earth Rotation */;
+			targetProxy = 7AEF953E26C2C1A000B49EEF /* PBXContainerItemProxy */;
+		};
+		7AEF954A26C2C1A000B49EEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AEF952326C2C19C00B49EEF /* Earth Rotation */;
+			targetProxy = 7AEF954926C2C1A000B49EEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AEF952D26C2C19D00B49EEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AEF952E26C2C19D00B49EEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AEF953526C2C1A000B49EEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AEF953626C2C1A000B49EEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AEF954F26C2C1A000B49EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AEF955026C2C1A000B49EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AEF955226C2C1A000B49EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DKEX8NYQS;
+				INFOPLIST_FILE = "Earth Rotation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MS.Earth-Rotation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AEF955326C2C1A000B49EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DKEX8NYQS;
+				INFOPLIST_FILE = "Earth Rotation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MS.Earth-Rotation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7AEF955526C2C1A000B49EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DKEX8NYQS;
+				INFOPLIST_FILE = "Earth RotationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MS.Earth-RotationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Earth Rotation.app/Earth Rotation";
+			};
+			name = Debug;
+		};
+		7AEF955626C2C1A000B49EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DKEX8NYQS;
+				INFOPLIST_FILE = "Earth RotationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MS.Earth-RotationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Earth Rotation.app/Earth Rotation";
+			};
+			name = Release;
+		};
+		7AEF955826C2C1A000B49EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DKEX8NYQS;
+				INFOPLIST_FILE = "Earth RotationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MS.Earth-RotationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Earth Rotation";
+			};
+			name = Debug;
+		};
+		7AEF955926C2C1A000B49EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DKEX8NYQS;
+				INFOPLIST_FILE = "Earth RotationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MS.Earth-RotationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Earth Rotation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AEF951F26C2C19C00B49EEF /* Build configuration list for PBXProject "Earth Rotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AEF954F26C2C1A000B49EEF /* Debug */,
+				7AEF955026C2C1A000B49EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AEF955126C2C1A000B49EEF /* Build configuration list for PBXNativeTarget "Earth Rotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AEF955226C2C1A000B49EEF /* Debug */,
+				7AEF955326C2C1A000B49EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AEF955426C2C1A000B49EEF /* Build configuration list for PBXNativeTarget "Earth RotationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AEF955526C2C1A000B49EEF /* Debug */,
+				7AEF955626C2C1A000B49EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AEF955726C2C1A000B49EEF /* Build configuration list for PBXNativeTarget "Earth RotationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AEF955826C2C1A000B49EEF /* Debug */,
+				7AEF955926C2C1A000B49EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7AEF953026C2C19D00B49EEF /* Earth_Rotation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7AEF953126C2C19D00B49EEF /* Earth_Rotation.xcdatamodel */,
+			);
+			currentVersion = 7AEF953126C2C19D00B49EEF /* Earth_Rotation.xcdatamodel */;
+			path = Earth_Rotation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7AEF951C26C2C19C00B49EEF /* Project object */;
+}
