@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,80 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Earth_Rotation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DqZ-gT-6QE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sky" translatesAutoresizingMaskIntoConstraints="NO" id="bKz-0h-nJG">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N0U-tL-aLp">
+                                <rect key="frame" x="57" y="298" width="300" height="300"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ArE-20-yQG" userLabel="vwImgContainer">
+                                        <rect key="frame" x="-300" y="0.0" width="600" height="300"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="worldMap" translatesAutoresizingMaskIntoConstraints="NO" id="RH1-bV-5CX">
+                                                <rect key="frame" x="300" y="0.0" width="300" height="300"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="300" id="ob3-aY-xd8"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="worldMap" translatesAutoresizingMaskIntoConstraints="NO" id="1oR-nD-b3i">
+                                                <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="1oR-nD-b3i" firstAttribute="leading" secondItem="ArE-20-yQG" secondAttribute="leading" id="EYa-PP-yMB"/>
+                                            <constraint firstAttribute="bottom" secondItem="RH1-bV-5CX" secondAttribute="bottom" id="J8Y-Yn-1Di"/>
+                                            <constraint firstItem="RH1-bV-5CX" firstAttribute="top" secondItem="ArE-20-yQG" secondAttribute="top" id="J8j-z8-BkY"/>
+                                            <constraint firstItem="RH1-bV-5CX" firstAttribute="leading" secondItem="1oR-nD-b3i" secondAttribute="trailing" id="KaJ-NI-Klr"/>
+                                            <constraint firstItem="1oR-nD-b3i" firstAttribute="top" secondItem="ArE-20-yQG" secondAttribute="top" id="XDx-CK-rHs"/>
+                                            <constraint firstAttribute="bottom" secondItem="1oR-nD-b3i" secondAttribute="bottom" id="atT-5F-Qfj"/>
+                                            <constraint firstItem="RH1-bV-5CX" firstAttribute="centerY" secondItem="ArE-20-yQG" secondAttribute="centerY" id="b2R-rb-e7s"/>
+                                            <constraint firstAttribute="width" constant="600" id="ktT-ft-MUI"/>
+                                            <constraint firstAttribute="trailing" secondItem="RH1-bV-5CX" secondAttribute="trailing" id="rc5-ld-Tc8"/>
+                                            <constraint firstItem="1oR-nD-b3i" firstAttribute="centerY" secondItem="ArE-20-yQG" secondAttribute="centerY" id="une-Te-jHT"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="ArE-20-yQG" secondAttribute="bottom" id="AgE-qS-V5Q"/>
+                                    <constraint firstItem="ArE-20-yQG" firstAttribute="top" secondItem="N0U-tL-aLp" secondAttribute="top" id="L6m-YX-jbN"/>
+                                    <constraint firstAttribute="height" constant="300" id="kJe-Dp-3ns"/>
+                                    <constraint firstAttribute="trailing" secondItem="ArE-20-yQG" secondAttribute="trailing" id="nFF-M0-VYx"/>
+                                    <constraint firstAttribute="width" constant="300" id="oCL-PE-rkv"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yda-8r-FxN"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="bKz-0h-nJG" secondAttribute="bottom" id="5V0-eA-MwM"/>
+                            <constraint firstItem="N0U-tL-aLp" firstAttribute="centerX" secondItem="DqZ-gT-6QE" secondAttribute="centerX" id="NuD-4r-RRI"/>
+                            <constraint firstItem="N0U-tL-aLp" firstAttribute="centerY" secondItem="DqZ-gT-6QE" secondAttribute="centerY" id="inq-i0-rd2"/>
+                            <constraint firstItem="yda-8r-FxN" firstAttribute="trailing" secondItem="bKz-0h-nJG" secondAttribute="trailing" id="iyC-E6-y82"/>
+                            <constraint firstItem="bKz-0h-nJG" firstAttribute="top" secondItem="DqZ-gT-6QE" secondAttribute="top" id="kJW-az-HAv"/>
+                            <constraint firstItem="bKz-0h-nJG" firstAttribute="leading" secondItem="yda-8r-FxN" secondAttribute="leading" id="qyR-L7-nXv"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="constrainViewContainer" destination="kJe-Dp-3ns" id="fcK-Jm-Chi"/>
+                        <outlet property="imgEarth" destination="RH1-bV-5CX" id="9wR-hP-RaS"/>
+                        <outlet property="viewContainer" destination="N0U-tL-aLp" id="s77-2a-R5m"/>
+                        <outlet property="viewImg" destination="ArE-20-yQG" id="HJO-l8-Fbw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="0.0" y="138"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="sky" width="1816" height="1136"/>
+        <image name="worldMap" width="640" height="320"/>
+    </resources>
 </document>
